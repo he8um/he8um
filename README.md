@@ -62,7 +62,7 @@
 
 ---
 
-## 🛠️ Supreme Skills & Expertise
+## 🛠️ Skills & Expertise
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project%20Management-FF0000?style=for-the-badge&logoColor=white" />
