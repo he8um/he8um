@@ -10,17 +10,17 @@
   <a href="https://github.com/he8um" title="Profile"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=he8um&label=Profile%20views&color=FF0000&style=for-the-badge" /></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/he8um?label=Followers&style=for-the-badge&color=FF0000" />
   <img alt="Stars" src="https://img.shields.io/github/stars/he8um?label=Stars&style=for-the-badge&color=FF0000" />
-  <img alt="Location" src="https://img.shields.io/badge/Location-Istabul%2C%20Turkey-FF0000?style=for-the-badge" />
+  <img alt="Location" src="https://img.shields.io/badge/Location-Tehran%2C%20Iran-FF0000?style=for-the-badge" />
 </p>
 
 ---
 
 ## About
 
-I am a results-driven Project Management professional with experience leading software delivery, marketing operations, and digital transformation programs. I combine structured delivery practices (Agile & Waterfall) with product-minded thinking to lead cross-functional teams and deliver measurable business outcomes.
+I'm a results-driven project management professional with experience leading software delivery, marketing operations, and digital transformation programs. I combine structured delivery practices (Agile & Waterfall) with product-minded thinking to lead cross-functional teams and deliver measurable business outcomes.
 
-- Focus areas: Project Management, Digital Transformation, Marketing Operations, Consulting, Software Delivery
-- Strengths: Leadership, stakeholder communication, process optimization, remote team enablement
+- Focus areas: project management, digital transformation, marketing operations, consulting, software delivery
+- Strengths: leadership, stakeholder communication, process optimization, remote team enablement
 
 ---
 
@@ -42,7 +42,8 @@ I am a results-driven Project Management professional with experience leading so
   <summary><strong>Digikala — Senior Marketing Project Management Specialist</strong></summary>
   <p><i>Oct 2024 – Present | Tehran, Iran</i></p>
   <ul>
-    <li>Lead marketing and product delivery initiatives, coordinate cross-functional teams, and track KPIs to measure impact.</li>
+    <li>Lead marketing and product delivery initiatives; coordinate cross-functional teams and stakeholders to deliver campaigns on time and within budget.</li>
+    <li>Define and track KPIs to measure campaign performance and delivery effectiveness.</li>
   </ul>
 </details>
 
@@ -51,7 +52,7 @@ I am a results-driven Project Management professional with experience leading so
   <p><i>Mar 2024 – Sep 2024 — Lead Project Manager (Software)</i><br />
   <i>Sep 2022 – Feb 2024 — Project Control Manager (Software)</i></p>
   <ul>
-    <li>Managed delivery lifecycles, implemented PMO standards, and improved delivery predictability.</li>
+    <li>Managed software delivery lifecycles, established PMO practices, and improved delivery predictability and reporting.</li>
   </ul>
 </details>
 
@@ -59,7 +60,7 @@ I am a results-driven Project Management professional with experience leading so
   <summary><strong>Hardafilm — Digital Project Manager / Consultant</strong></summary>
   <p><i>Dec 2021 – Sep 2024</i></p>
   <ul>
-    <li>Advised on roadmap planning, delivery processes, and go-to-market execution.</li>
+    <li>Advised on roadmap planning, delivery processes, and go-to-market execution to accelerate product launches.</li>
   </ul>
 </details>
 
@@ -67,7 +68,7 @@ I am a results-driven Project Management professional with experience leading so
   <summary><strong>Achilaandoor — Technical Project Consultant (Freelance)</strong></summary>
   <p><i>Mar 2024 – Aug 2024 | Remote</i></p>
   <ul>
-    <li>Provided delivery coaching and technical project guidance for digital initiatives.</li>
+    <li>Provided delivery coaching, project governance, and technical guidance to remote teams and stakeholders.</li>
   </ul>
 </details>
 
@@ -77,7 +78,6 @@ I am a results-driven Project Management professional with experience leading so
 
 <p align="center">
   <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=he8um&show_icons=true&count_private=true&theme=radical&title_color=FF0000&icon_color=FF0000" />
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=he8um&layout=compact&theme=radical" />
 </p>
 
 ---
@@ -86,7 +86,7 @@ I am a results-driven Project Management professional with experience leading so
 
 - 100+ commits across multiple repositories
 - Maintainer and active contributor to community projects
-- Led and launched several software and marketing initiatives
+- Led and launched multiple software and marketing initiatives end-to-end
 
 ---
 
@@ -94,7 +94,7 @@ I am a results-driven Project Management professional with experience leading so
 
 <p align="center">
   <a href="https://www.linkedin.com/in/he8um/" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-Amir%20Hesam%20Piri-FF0000?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="mailto:amirhesum@gmail.com" title="Email"><img src="https://img.shields.io/badge/Gmail-amirhesum%40gmail.com-FF0000?style=for-the-badge&logo=gmail" alt="Email" /></a>
+  <a href="mailto:amirhesum@gmail.com" title="Email"><img src="https://img.shields.io/badge/Email-amirhesum%40gmail.com-FF0000?style=for-the-badge&logo=gmail" alt="Email" /></a>
 </p>
 
 ---
