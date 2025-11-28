@@ -10,7 +10,7 @@
   <a href="https://github.com/he8um" title="Profile"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=he8um&label=Profile%20views&color=FF0000&style=for-the-badge" /></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/he8um?label=Followers&style=for-the-badge&color=FF0000" />
   <img alt="Stars" src="https://img.shields.io/github/stars/he8um?label=Stars&style=for-the-badge&color=FF0000" />
-  <img alt="Location" src="https://img.shields.io/badge/Location-Tehran%2C%20Iran-FF0000?style=for-the-badge" />
+  <img alt="Location" src="https://img.shields.io/badge/Location-Istabul%2C%20Turkey-FF0000?style=for-the-badge" />
 </p>
 
 ---
