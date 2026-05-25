@@ -1,9 +1,4 @@
 <!-- GitHub Profile README - he8um -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0b0b0f,100:8B0000&text=Amir%20Hesam%20Piri&fontColor=ffffff&fontSize=40&fontAlignY=38&desc=Marketing%20Project%20Manager%20%E2%80%A2%20Project%20Management%20%E2%80%A2%20Marketing%20Ops%20%E2%80%A2%20Software%20Delivery&descAlignY=58&descSize=16" alt="header"/>
-</p>
-
 <h1 align="center">Hi, I'm Amir Hesam Piri 👋</h1>
 
 <p align="center">
