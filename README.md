@@ -65,8 +65,9 @@ My experience sits at the intersection of:
 <td valign="top" width="50%">
 
 ### 🧰 Tools & Platforms
-- Jira  
-- Airtable  
+- ClickUp  
+- Airtable
+- Jira
 - Notion  
 - Git & GitHub  
 - Google Sheets / Excel  
