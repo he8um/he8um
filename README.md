@@ -256,7 +256,6 @@ mindmap
       Reporting
       Documentation
     Technical Layer
-      Go
       GitHub
       APIs
       CLI Tools
