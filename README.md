@@ -47,7 +47,7 @@
   />
 </p>
 
-## 🧠 What I Actually Do
+## What I Actually Do
 
 <table>
   <tr>
@@ -71,7 +71,7 @@
       </table>
     </td>
     <td width="42%" valign="top">
-      <h3>⚙️ Core Focus</h3>
+      <h3> Core Focus</h3>
       <ul>
         <li>Marketing operations systems</li>
         <li>Project delivery infrastructure</li>
@@ -93,7 +93,7 @@
 
 ---
 
-## 🧩 The Operating System I Build
+## The Operating System I Build
 
 ```mermaid
 flowchart LR
@@ -128,12 +128,12 @@ flowchart LR
 
 ---
 
-## 🛠️ Systems I Like Building
+## Systems I Like Building
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🧭 Workflow Systems</h3>
+      <h3> Workflow Systems</h3>
       <ul>
         <li>Request intake</li>
         <li>Task lifecycle design</li>
@@ -144,7 +144,7 @@ flowchart LR
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>⚡ Automation Systems</h3>
+      <h3>Automation Systems</h3>
       <ul>
         <li>Cross-tool synchronization</li>
         <li>Workflow automations</li>
@@ -155,7 +155,7 @@ flowchart LR
       </ul>
     </td>
     <td width="34%" valign="top">
-      <h3>📊 Visibility Systems</h3>
+      <h3> Visibility Systems</h3>
       <ul>
         <li>Delivery dashboards</li>
         <li>Progress and risk tracking</li>
@@ -177,7 +177,7 @@ flowchart LR
 
 ---
 
-## 🧰 Tools, Platforms & Engineering Stack
+## Tools, Platforms & Engineering Stack
 
 <p align="center">
   <img
@@ -203,7 +203,7 @@ flowchart LR
 
 ---
 
-## 🚀 Current Direction
+## Current Direction
 
 <table>
   <tr>
@@ -238,7 +238,7 @@ flowchart LR
   />
 </p>
 
-## 📈 GitHub Activity
+## GitHub Activity
 
 <p align="center">
   <img
@@ -270,7 +270,7 @@ flowchart LR
 
 ---
 
-## 🧭 Philosophy
+## Philosophy
 
 <p align="center">
   I care about the operational layer behind creative and technical work:<br />
