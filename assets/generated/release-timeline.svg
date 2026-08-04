@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 520">
+  <title id="title">Public release and milestone timeline</title>
+  <desc id="desc">2026-06-11: Daryaft, v1.12.0 stable. 2026-06-27: AirBridge, v0.1.0 public alpha. 2026-07-10: BranchDojo, v0.4.0 released. 2026-07-20: Marketing Maestro, v2 architecture milestone. 2026-07-21: Product Maestro, v1 source milestone. 2026-07-27: Software Architecture Maestro, v1 source milestone. 2026-08-03: OH MY PM, v0.6.1 stable</desc>
+  <style>
+    text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif; fill:#f0f6fc; }
+    .muted { fill:#9da7b3; }
+    .accent { fill:#f0443e; }
+    .surface { fill:#161b22; stroke:#30363d; }
+    .surface2 { fill:#21262d; stroke:#30363d; }
+    .line { stroke:#30363d; }
+    .accent-line { stroke:#f0443e; }
+  </style>
+  <rect width="1200" height="520" rx="24" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="48" font-size="25" font-weight="800">Release &amp; Milestone Timeline</text>
+  <text x="28" y="73" font-size="14" class="muted">Only public tags and named commits are included; routine commits are excluded.</text>
+  <line x1="190" y1="104" x2="1135" y2="104" class="line" stroke-width="1"/>
+    <circle cx="190" cy="104" r="8" fill="#f0443e"/>
+    <text x="34" y="109" font-size="14" font-weight="750">2026-06-11</text>
+    <text x="222" y="109" font-size="16" font-weight="750">Daryaft</text>
+    <text x="522" y="109" font-size="15" class="muted">v1.12.0 stable</text>
+    <text x="1088" y="109" text-anchor="end" font-size="12" font-weight="800" class="accent">TAG</text>
+  <line x1="190" y1="159" x2="1135" y2="159" class="line" stroke-width="1"/>
+    <circle cx="190" cy="159" r="8" fill="#f0443e"/>
+    <text x="34" y="164" font-size="14" font-weight="750">2026-06-27</text>
+    <text x="222" y="164" font-size="16" font-weight="750">AirBridge</text>
+    <text x="522" y="164" font-size="15" class="muted">v0.1.0 public alpha</text>
+    <text x="1088" y="164" text-anchor="end" font-size="12" font-weight="800" class="accent">TAG</text>
+  <line x1="190" y1="214" x2="1135" y2="214" class="line" stroke-width="1"/>
+    <circle cx="190" cy="214" r="8" fill="#f0443e"/>
+    <text x="34" y="219" font-size="14" font-weight="750">2026-07-10</text>
+    <text x="222" y="219" font-size="16" font-weight="750">BranchDojo</text>
+    <text x="522" y="219" font-size="15" class="muted">v0.4.0 released</text>
+    <text x="1088" y="219" text-anchor="end" font-size="12" font-weight="800" class="accent">TAG</text>
+  <line x1="190" y1="269" x2="1135" y2="269" class="line" stroke-width="1"/>
+    <circle cx="190" cy="269" r="8" fill="#f0443e"/>
+    <text x="34" y="274" font-size="14" font-weight="750">2026-07-20</text>
+    <text x="222" y="274" font-size="16" font-weight="750">Marketing Maestro</text>
+    <text x="522" y="274" font-size="15" class="muted">v2 architecture milestone</text>
+    <text x="1088" y="274" text-anchor="end" font-size="12" font-weight="800" class="accent">COMMIT</text>
+  <line x1="190" y1="324" x2="1135" y2="324" class="line" stroke-width="1"/>
+    <circle cx="190" cy="324" r="8" fill="#f0443e"/>
+    <text x="34" y="329" font-size="14" font-weight="750">2026-07-21</text>
+    <text x="222" y="329" font-size="16" font-weight="750">Product Maestro</text>
+    <text x="522" y="329" font-size="15" class="muted">v1 source milestone</text>
+    <text x="1088" y="329" text-anchor="end" font-size="12" font-weight="800" class="accent">COMMIT</text>
+  <line x1="190" y1="379" x2="1135" y2="379" class="line" stroke-width="1"/>
+    <circle cx="190" cy="379" r="8" fill="#f0443e"/>
+    <text x="34" y="384" font-size="14" font-weight="750">2026-07-27</text>
+    <text x="222" y="384" font-size="16" font-weight="750">Software Architecture Maestro</text>
+    <text x="522" y="384" font-size="15" class="muted">v1 source milestone</text>
+    <text x="1088" y="384" text-anchor="end" font-size="12" font-weight="800" class="accent">COMMIT</text>
+  <line x1="190" y1="434" x2="1135" y2="434" class="line" stroke-width="1"/>
+    <circle cx="190" cy="434" r="8" fill="#f0443e"/>
+    <text x="34" y="439" font-size="14" font-weight="750">2026-08-03</text>
+    <text x="222" y="439" font-size="16" font-weight="750">OH MY PM</text>
+    <text x="522" y="439" font-size="15" class="muted">v0.6.1 stable</text>
+    <text x="1088" y="439" text-anchor="end" font-size="12" font-weight="800" class="accent">TAG</text>
+</svg>

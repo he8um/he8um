@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "name": "AmirHesam Piri",
+    "positioning": "Technical Product & Project Manager",
+    "tagline": "Building operational systems, developer tools, and AI-ready workflows.",
+    "website": "https://xhesam.com",
+    "linkedin": "https://www.linkedin.com/in/he8um/",
+    "email": "info@xhesam.com"
+  },
+  "metricDefinitions": {
+    "featuredProjects": "Projects where featured is true.",
+    "releasedProductLines": "Non-Skill portfolio projects with a verified public release or tag in public-metadata.json.",
+    "maintainedAgentSkills": "Non-archived public repositories categorized as AI Agent Skills.",
+    "maintainedPortfolioProjects": "Non-archived projects governed by this source file; the profile, empty repositories, archived work, and distribution-only repositories are excluded.",
+    "engineeringLanguages": "Distinct implementation languages listed for featured product-engineering projects: Go, Rust, and TypeScript.",
+    "timelineMilestones": "Public tag- or commit-backed events selected in milestones."
+  },
+  "projects": [
+    {
+      "repository": "he8um/oh-my-pm",
+      "title": "OH MY PM",
+      "category": "Operational & Product Systems",
+      "featured": true,
+      "displayOrder": 1,
+      "maturity": "active-development",
+      "summary": "A local project-intelligence system that turns repository context into structured briefs, risks, next actions, handoffs, plans, and governed Project Memory.",
+      "technologies": ["TypeScript", "Rust", "WASM", "MCP", "GitHub Actions"],
+      "capabilities": ["Project intelligence", "CLI", "MCP server", "Local-first memory"],
+      "currentState": "v0.6.1 is the latest stable release; source 0.6.2 is prepared but unpublished.",
+      "nextMilestone": "Publish the already-prepared v0.6.2 Project Memory integrity release.",
+      "documentationUrl": "https://github.com/he8um/oh-my-pm/blob/main/docs/releases/v0.6.1.md"
+    },
+    {
+      "repository": "he8um/daryaft",
+      "title": "Daryaft",
+      "category": "Developer Tools",
+      "featured": true,
+      "displayOrder": 2,
+      "maturity": "stable",
+      "summary": "A Go terminal downloader with CLI and Bubble Tea TUI flows, resumable transfers, retries, checksums, diagnostics, and release packaging.",
+      "technologies": ["Go", "Bubble Tea", "GitHub Actions"],
+      "capabilities": ["CLI", "TUI", "Downloads", "Release engineering"],
+      "currentState": "v1.12.0 is the current stable release and is available through GitHub archives and Homebrew.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/daryaft/blob/main/wiki/Roadmap.md"
+    },
+    {
+      "repository": "he8um/AirBridge",
+      "title": "AirBridge",
+      "category": "Operational & Product Systems",
+      "featured": true,
+      "displayOrder": 3,
+      "maturity": "public-alpha",
+      "summary": "A local-first desktop application for backing up, inspecting, validating, and planning safe restoration of Airtable bases.",
+      "technologies": ["Rust", "TypeScript", "React", "Tauri", "Airtable", "SQLite", "GitHub Actions"],
+      "capabilities": ["Desktop app", "Backup packages", "Integrity validation", "Dry-run restore"],
+      "currentState": "v0.1.0-alpha supports backup, inspection, validation, and restore planning; live restore writes remain disabled by policy.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/AirBridge/blob/main/docs/release/v0.1.0-alpha-release-notes.md"
+    },
+    {
+      "repository": "he8um/branchdojo",
+      "title": "BranchDojo",
+      "category": "Developer Tools",
+      "featured": true,
+      "displayOrder": 4,
+      "maturity": "release-candidate",
+      "summary": "A Rust CLI that creates disposable Git repositories for practicing real conflict, recovery, history, and release workflows.",
+      "technologies": ["Rust", "Git", "GitHub Actions"],
+      "capabilities": ["CLI", "Git kata", "Deterministic validation", "Safe practice environments"],
+      "currentState": "v0.4.0 is released; v0.5.0 is release-candidate ready on main but has no final tag or GitHub Release.",
+      "nextMilestone": "Create the final v0.5.0 tag and GitHub Release.",
+      "documentationUrl": "https://github.com/he8um/branchdojo/blob/main/ROADMAP.md"
+    },
+    {
+      "repository": "he8um/product-maestro",
+      "title": "Product Maestro",
+      "category": "AI Agent Skills",
+      "featured": true,
+      "displayOrder": 5,
+      "maturity": "maintained",
+      "summary": "A production-grade Skill that guides AI agents through product diagnosis, evidence, strategy, discovery, delivery, measurement, lifecycle, and governance.",
+      "technologies": ["Python", "JSON Schema", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["Product decisions", "Discovery", "Delivery", "Governance"],
+      "currentState": "The v1.0.0 source milestone is on main with an installable skill package and validation suite; no public version tag is present.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/product-maestro#readme"
+    },
+    {
+      "repository": "he8um/marketing-maestro",
+      "title": "Marketing Maestro",
+      "category": "AI Agent Skills",
+      "featured": true,
+      "displayOrder": 6,
+      "maturity": "maintained",
+      "summary": "A production-grade Skill for evidence-led marketing diagnosis, strategy, execution, measurement, operations, governance, and compliance.",
+      "technologies": ["Python", "JSON Schema", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["Marketing strategy", "Operations", "Measurement", "Governance"],
+      "currentState": "The v2.0.0 source milestone is on main with a packaged Skill, schemas, examples, and validators; no public version tag is present.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/marketing-maestro#readme"
+    },
+    {
+      "repository": "he8um/software-architecture-maestro",
+      "title": "Software Architecture Maestro",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 7,
+      "maturity": "maintained",
+      "summary": "A Skill for traceable software and system architecture across full-code, low-code, automation, distributed, data-intensive, and AI-native systems.",
+      "technologies": ["Python", "JSON Schema", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["Architecture decisions", "Trade-offs", "Governance", "Implementation handoff"],
+      "currentState": "The v1.0.0 source milestone is on main; the repository is active and not archived.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/software-architecture-maestro#readme"
+    },
+    {
+      "repository": "he8um/api-design-skills",
+      "title": "API Design Skills",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 8,
+      "maturity": "maintained",
+      "summary": "Production-grade API architecture, contract, security, governance, testing, and migration guidance for AI agents.",
+      "technologies": ["Python", "JSON Schema", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["REST", "OpenAPI", "AsyncAPI", "GraphQL", "gRPC"],
+      "currentState": "Installable Skill source, tests, examples, packaging, and release automation are present on main.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/api-design-skills#readme"
+    },
+    {
+      "repository": "he8um/database-engineering-skills",
+      "title": "Database Engineering Skills",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 9,
+      "maturity": "maintained",
+      "summary": "Database architecture, implementation, security, migration, performance, reliability, and operations guidance for AI agents.",
+      "technologies": ["Python", "JSON Schema", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["Data modeling", "Migration", "Reliability", "Security"],
+      "currentState": "Installable Skill source and validation automation are present on main; the repository is active and not archived.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/database-engineering-skills#readme"
+    },
+    {
+      "repository": "he8um/github-skills",
+      "title": "GitHub Skills",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 10,
+      "maturity": "maintained",
+      "summary": "Repository architecture, governance, automation, security, release, and troubleshooting guidance for AI agents.",
+      "technologies": ["Python", "JSON Schema", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["Repository governance", "CI/CD", "Security", "Release systems"],
+      "currentState": "Installable Skill source, audit tooling, examples, tests, and release automation are present on main.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/github-skills#readme"
+    },
+    {
+      "repository": "he8um/mcp-skills",
+      "title": "MCP Skills",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 11,
+      "maturity": "maintained",
+      "summary": "Architecture, implementation, security, testing, and operations guidance for Model Context Protocol systems.",
+      "technologies": ["Python", "JSON Schema", "MCP", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["MCP architecture", "Tool contracts", "Security", "Operations"],
+      "currentState": "Installable Skill source, examples, validation, and protocol-maintenance guidance are present on main.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/mcp-skills#readme"
+    },
+    {
+      "repository": "he8um/airtable-skills",
+      "title": "Airtable Skills",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 12,
+      "maturity": "maintained",
+      "summary": "Airtable architecture and implementation guidance for bases, schemas, workflows, automations, interfaces, governance, and troubleshooting.",
+      "technologies": ["Airtable", "AI Agent Skills", "Python", "GitHub Actions"],
+      "capabilities": ["Base architecture", "Schema design", "Automation", "Governance"],
+      "currentState": "Installable Skill source, references, examples, validation, and release guidance are present on main.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/airtable-skills#readme"
+    },
+    {
+      "repository": "he8um/clickup-skills",
+      "title": "ClickUp Skills",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 13,
+      "maturity": "maintained",
+      "summary": "ClickUp workspace architecture, implementation, audit, automation, governance, and troubleshooting guidance for AI agents.",
+      "technologies": ["ClickUp", "AI Agent Skills", "Python", "GitHub Actions"],
+      "capabilities": ["Workspace architecture", "Workflow design", "Automation", "Governance"],
+      "currentState": "Installable Skill source, references, examples, and validation are present on main.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/clickup-skills#readme"
+    },
+    {
+      "repository": "he8um/n8n-skills",
+      "title": "n8n Skills",
+      "category": "AI Agent Skills",
+      "featured": false,
+      "displayOrder": 14,
+      "maturity": "maintained",
+      "summary": "Workflow architecture and importable n8n JSON guidance for reliable, secure, testable, and maintainable automation.",
+      "technologies": ["n8n", "JSON", "AI Agent Skills", "GitHub Actions"],
+      "capabilities": ["Workflow design", "Importable JSON", "Idempotency", "Operations"],
+      "currentState": "Installable Skill source, workflow guidance, validation scripts, and release guidance are present on main.",
+      "nextMilestone": null,
+      "documentationUrl": "https://github.com/he8um/n8n-skills#readme"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-06-11",
+      "project": "Daryaft",
+      "label": "v1.12.0 stable",
+      "evidenceUrl": "https://github.com/he8um/daryaft/releases/tag/v1.12.0",
+      "evidenceType": "tag"
+    },
+    {
+      "date": "2026-06-27",
+      "project": "AirBridge",
+      "label": "v0.1.0 public alpha",
+      "evidenceUrl": "https://github.com/he8um/AirBridge/releases/tag/v0.1.0-alpha",
+      "evidenceType": "tag"
+    },
+    {
+      "date": "2026-07-10",
+      "project": "BranchDojo",
+      "label": "v0.4.0 released",
+      "evidenceUrl": "https://github.com/he8um/branchdojo/releases/tag/v0.4.0",
+      "evidenceType": "tag"
+    },
+    {
+      "date": "2026-07-20",
+      "project": "Marketing Maestro",
+      "label": "v2 architecture milestone",
+      "evidenceUrl": "https://github.com/he8um/marketing-maestro/commit/4c5583b20d05ba510fd2d83d9216a51f622e0935",
+      "evidenceType": "commit"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "Product Maestro",
+      "label": "v1 source milestone",
+      "evidenceUrl": "https://github.com/he8um/product-maestro/commit/0b6b3d7cd48fb91c852c03acf9b3360c830c130f",
+      "evidenceType": "commit"
+    },
+    {
+      "date": "2026-07-27",
+      "project": "Software Architecture Maestro",
+      "label": "v1 source milestone",
+      "evidenceUrl": "https://github.com/he8um/software-architecture-maestro/commit/ce497c4a824061a3636ddfa3822d626d7c77a045",
+      "evidenceType": "commit"
+    },
+    {
+      "date": "2026-08-03",
+      "project": "OH MY PM",
+      "label": "v0.6.1 stable",
+      "evidenceUrl": "https://github.com/he8um/oh-my-pm/releases/tag/v0.6.1",
+      "evidenceType": "tag"
+    }
+  ]
+}

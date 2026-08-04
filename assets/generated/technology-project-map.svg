@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 555">
+  <title id="title">Technology by featured project map</title>
+  <desc id="desc">A matrix showing where Go, Rust, TypeScript, React, Tauri, MCP, GitHub Actions, and Python are used across six featured projects.</desc>
+  <style>
+    text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif; fill:#f0f6fc; }
+    .muted { fill:#9da7b3; }
+    .accent { fill:#f0443e; }
+    .surface { fill:#161b22; stroke:#30363d; }
+    .surface2 { fill:#21262d; stroke:#30363d; }
+    .line { stroke:#30363d; }
+    .accent-line { stroke:#f0443e; }
+  </style>
+  <rect width="1200" height="555" rx="24" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="48" font-size="25" font-weight="800">Technology × Project</text>
+  <text x="28" y="72" font-size="14" class="muted">A marker means the technology is documented in that repository; it is not a proficiency score.</text>
+  <text x="330" y="91" text-anchor="middle" font-size="12" font-weight="800">OH MY PM</text>
+  <text x="472" y="91" text-anchor="middle" font-size="12" font-weight="800">DARYAFT</text>
+  <text x="614" y="91" text-anchor="middle" font-size="12" font-weight="800">AIRBRIDGE</text>
+  <text x="756" y="91" text-anchor="middle" font-size="12" font-weight="800">BRANCHDOJO</text>
+  <text x="898" y="91" text-anchor="middle" font-size="12" font-weight="800">PRODUCT</text>
+  <text x="1040" y="91" text-anchor="middle" font-size="12" font-weight="800">MARKETING</text>
+  <text x="40" y="132" font-size="15" font-weight="700">Go</text>
+    <line x1="202" y1="127" x2="1165" y2="127" class="line" stroke-width="1"/>
+    <circle cx="330" cy="127" r="4" fill="#30363d"/>
+      <circle cx="472" cy="127" r="10" fill="#f0443e"/><path d="M467 127 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="614" cy="127" r="4" fill="#30363d"/>
+      <circle cx="756" cy="127" r="4" fill="#30363d"/>
+      <circle cx="898" cy="127" r="4" fill="#30363d"/>
+      <circle cx="1040" cy="127" r="4" fill="#30363d"/>
+  <text x="40" y="181" font-size="15" font-weight="700">Rust</text>
+    <line x1="202" y1="176" x2="1165" y2="176" class="line" stroke-width="1"/>
+    <circle cx="330" cy="176" r="10" fill="#f0443e"/><path d="M325 176 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="472" cy="176" r="4" fill="#30363d"/>
+      <circle cx="614" cy="176" r="10" fill="#f0443e"/><path d="M609 176 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="756" cy="176" r="10" fill="#f0443e"/><path d="M751 176 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="898" cy="176" r="4" fill="#30363d"/>
+      <circle cx="1040" cy="176" r="4" fill="#30363d"/>
+  <text x="40" y="230" font-size="15" font-weight="700">TypeScript</text>
+    <line x1="202" y1="225" x2="1165" y2="225" class="line" stroke-width="1"/>
+    <circle cx="330" cy="225" r="10" fill="#f0443e"/><path d="M325 225 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="472" cy="225" r="4" fill="#30363d"/>
+      <circle cx="614" cy="225" r="10" fill="#f0443e"/><path d="M609 225 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="756" cy="225" r="4" fill="#30363d"/>
+      <circle cx="898" cy="225" r="4" fill="#30363d"/>
+      <circle cx="1040" cy="225" r="4" fill="#30363d"/>
+  <text x="40" y="279" font-size="15" font-weight="700">React</text>
+    <line x1="202" y1="274" x2="1165" y2="274" class="line" stroke-width="1"/>
+    <circle cx="330" cy="274" r="4" fill="#30363d"/>
+      <circle cx="472" cy="274" r="4" fill="#30363d"/>
+      <circle cx="614" cy="274" r="10" fill="#f0443e"/><path d="M609 274 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="756" cy="274" r="4" fill="#30363d"/>
+      <circle cx="898" cy="274" r="4" fill="#30363d"/>
+      <circle cx="1040" cy="274" r="4" fill="#30363d"/>
+  <text x="40" y="328" font-size="15" font-weight="700">Tauri</text>
+    <line x1="202" y1="323" x2="1165" y2="323" class="line" stroke-width="1"/>
+    <circle cx="330" cy="323" r="4" fill="#30363d"/>
+      <circle cx="472" cy="323" r="4" fill="#30363d"/>
+      <circle cx="614" cy="323" r="10" fill="#f0443e"/><path d="M609 323 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="756" cy="323" r="4" fill="#30363d"/>
+      <circle cx="898" cy="323" r="4" fill="#30363d"/>
+      <circle cx="1040" cy="323" r="4" fill="#30363d"/>
+  <text x="40" y="377" font-size="15" font-weight="700">MCP</text>
+    <line x1="202" y1="372" x2="1165" y2="372" class="line" stroke-width="1"/>
+    <circle cx="330" cy="372" r="10" fill="#f0443e"/><path d="M325 372 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="472" cy="372" r="4" fill="#30363d"/>
+      <circle cx="614" cy="372" r="4" fill="#30363d"/>
+      <circle cx="756" cy="372" r="4" fill="#30363d"/>
+      <circle cx="898" cy="372" r="4" fill="#30363d"/>
+      <circle cx="1040" cy="372" r="4" fill="#30363d"/>
+  <text x="40" y="426" font-size="15" font-weight="700">GitHub Actions</text>
+    <line x1="202" y1="421" x2="1165" y2="421" class="line" stroke-width="1"/>
+    <circle cx="330" cy="421" r="10" fill="#f0443e"/><path d="M325 421 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="472" cy="421" r="10" fill="#f0443e"/><path d="M467 421 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="614" cy="421" r="10" fill="#f0443e"/><path d="M609 421 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="756" cy="421" r="10" fill="#f0443e"/><path d="M751 421 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="898" cy="421" r="10" fill="#f0443e"/><path d="M893 421 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1040" cy="421" r="10" fill="#f0443e"/><path d="M1035 421 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40" y="475" font-size="15" font-weight="700">Python</text>
+    <line x1="202" y1="470" x2="1165" y2="470" class="line" stroke-width="1"/>
+    <circle cx="330" cy="470" r="4" fill="#30363d"/>
+      <circle cx="472" cy="470" r="4" fill="#30363d"/>
+      <circle cx="614" cy="470" r="4" fill="#30363d"/>
+      <circle cx="756" cy="470" r="4" fill="#30363d"/>
+      <circle cx="898" cy="470" r="10" fill="#f0443e"/><path d="M893 470 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1040" cy="470" r="10" fill="#f0443e"/><path d="M1035 470 l4 4 l7 -8" fill="none" stroke="#ffffff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="40" cy="526" r="8" fill="#f0443e"/><text x="58" y="531" font-size="13" class="muted">verified use</text>
+  <circle cx="172" cy="526" r="4" fill="#30363d"/><text x="185" y="531" font-size="13" class="muted">not represented</text>
+</svg>
