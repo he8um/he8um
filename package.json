@@ -7,8 +7,6 @@
     "node": ">=24"
   },
   "scripts": {
-    "generate": "node scripts/generate-profile.mjs",
-    "refresh": "node scripts/generate-profile.mjs --refresh",
     "validate": "node scripts/validate-profile.mjs",
     "test": "node --test"
   }
