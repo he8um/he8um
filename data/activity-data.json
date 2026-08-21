@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "source": "github-api",
+  "generatedAt": "2026-08-21T18:19:39.318Z",
+  "repositories": [
+    {
+      "fullName": "he8um/oh-my-pm",
+      "name": "oh-my-pm",
+      "description": "AI-ready project management toolkit with CLI, runtime, planner, skills, providers, WASM kernel, and installer foundations.",
+      "url": "https://github.com/he8um/oh-my-pm",
+      "primaryLanguage": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 9,
+      "pushedAt": "2026-08-17T06:21:26Z",
+      "latestRelease": {
+        "tag": "v0.6.2",
+        "url": "https://github.com/he8um/oh-my-pm/releases/tag/v0.6.2",
+        "publishedAt": "2026-08-04T08:47:48Z"
+      },
+      "recentMergedPullRequests": 24
+    },
+    {
+      "fullName": "he8um/AirBridge",
+      "name": "AirBridge",
+      "description": "Open-source desktop app to back up, inspect, validate, and restore Airtable bases locally with best-effort schema reconstruction.",
+      "url": "https://github.com/he8um/AirBridge",
+      "primaryLanguage": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-06-27T13:56:22Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/daryaft",
+      "name": "daryaft",
+      "description": "A fast, polished TUI/CLI downloader written in Go",
+      "url": "https://github.com/he8um/daryaft",
+      "primaryLanguage": "Go",
+      "stars": 2,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-06-26T19:47:38Z",
+      "latestRelease": {
+        "tag": "v1.12.0",
+        "url": "https://github.com/he8um/daryaft/releases/tag/v1.12.0",
+        "publishedAt": "2026-06-11T08:05:49Z"
+      },
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/branchdojo",
+      "name": "branchdojo",
+      "description": "BranchDojo is a local Git kata tool for developers who know basic Git commands but have not practiced real workflow recovery.",
+      "url": "https://github.com/he8um/branchdojo",
+      "primaryLanguage": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-07-11T13:11:10Z",
+      "latestRelease": {
+        "tag": "v0.4.0",
+        "url": "https://github.com/he8um/branchdojo/releases/tag/v0.4.0",
+        "publishedAt": "2026-07-10T15:59:20Z"
+      },
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/product-maestro",
+      "name": "product-maestro",
+      "description": null,
+      "url": "https://github.com/he8um/product-maestro",
+      "primaryLanguage": "Python",
+      "stars": 2,
+      "forks": 0,
+      "openIssues": 5,
+      "pushedAt": "2026-07-21T12:40:35Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/marketing-maestro",
+      "name": "marketing-maestro",
+      "description": null,
+      "url": "https://github.com/he8um/marketing-maestro",
+      "primaryLanguage": "Python",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 4,
+      "pushedAt": "2026-08-01T22:36:38Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/software-architecture-maestro",
+      "name": "software-architecture-maestro",
+      "description": "Production-grade software and system architecture guidance for full-code, low-code, no-code, SaaS, workflow automation, distributed, cloud, data-intensive, and AI-native systems.",
+      "url": "https://github.com/he8um/software-architecture-maestro",
+      "primaryLanguage": "Python",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 4,
+      "pushedAt": "2026-07-27T12:16:09Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/api-design-skills",
+      "name": "api-design-skills",
+      "description": "Production-grade API design skill for AI agents to architect, secure, document, audit, test, and migrate REST, OpenAPI, AsyncAPI, GraphQL, gRPC, webhook, streaming, and event-driven APIs.",
+      "url": "https://github.com/he8um/api-design-skills",
+      "primaryLanguage": "Python",
+      "stars": 2,
+      "forks": 0,
+      "openIssues": 4,
+      "pushedAt": "2026-08-01T23:36:26Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/database-engineering-skills",
+      "name": "database-engineering-skills",
+      "description": "Production-grade database engineering skill for AI agents to design, secure, audit, migrate, optimize, and operate relational, NoSQL, distributed, analytical, search, graph, time-series, and vector databases.",
+      "url": "https://github.com/he8um/database-engineering-skills",
+      "primaryLanguage": "Python",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 4,
+      "pushedAt": "2026-08-01T22:06:37Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/github-skills",
+      "name": "github-skills",
+      "description": "Production-grade GitHub skill for AI agents to architect, audit, secure, automate, document, and maintain repositories, workflows, releases, pull requests, issues, and open-source governance.",
+      "url": "https://github.com/he8um/github-skills",
+      "primaryLanguage": "Python",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 3,
+      "pushedAt": "2026-08-01T04:09:23Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/mcp-skills",
+      "name": "mcp-skills",
+      "description": "Production-grade MCP skill for AI agents to architect, implement, audit, secure, test, troubleshoot, and deploy Model Context Protocol servers, clients, tools, resources, prompts, and integrations.",
+      "url": "https://github.com/he8um/mcp-skills",
+      "primaryLanguage": "Python",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 2,
+      "pushedAt": "2026-08-01T15:36:46Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/airtable-skills",
+      "name": "airtable-skills",
+      "description": "Professional Airtable skill for AI agents to design, audit, document, and troubleshoot Airtable bases, schemas, automations, interfaces, integrations, and operational workflows.",
+      "url": "https://github.com/he8um/airtable-skills",
+      "primaryLanguage": "Python",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-07-08T13:25:57Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/clickup-skills",
+      "name": "clickup-skills",
+      "description": "Professional ClickUp skill for AI agents to design, audit, document, and troubleshoot ClickUp workspaces, hierarchy, statuses, custom fields, automations, dashboards, docs, and team workflows.",
+      "url": "https://github.com/he8um/clickup-skills",
+      "primaryLanguage": "Python",
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-07-08T13:37:55Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    },
+    {
+      "fullName": "he8um/n8n-skills",
+      "name": "n8n-skills",
+      "description": "Professional n8n skill for AI agents to design, audit, document, troubleshoot, and generate import-ready n8n workflow JSON with secure credentials, error handling, retries, webhooks, API integrations, and production workflow patterns.",
+      "url": "https://github.com/he8um/n8n-skills",
+      "primaryLanguage": "Python",
+      "stars": 4,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-07-08T13:57:42Z",
+      "latestRelease": null,
+      "recentMergedPullRequests": 0
+    }
+  ]
+}

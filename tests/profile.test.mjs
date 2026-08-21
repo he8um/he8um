@@ -1,72 +1,47 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { loadPortfolio, MATURITY_VALUES, validatePortfolio } from "../scripts/lib/portfolio.mjs";
-import { isAllowedLiveImage, remoteImageUrls } from "../scripts/validate-profile.mjs";
+import { summarizeTelemetry } from "../scripts/generate-profile.mjs";
 
 const readme = await readFile("README.md", "utf8");
-const portfolio = await loadPortfolio();
-const featured = portfolio.projects.filter((project) => project.featured);
+const profile = JSON.parse(await readFile("data/profile.json", "utf8"));
+const operations = JSON.parse(await readFile("data/operations.json", "utf8"));
+const activity = JSON.parse(await readFile("data/activity-data.json", "utf8"));
 
-test("portfolio source is valid", () => {
-  assert.deepEqual(validatePortfolio(portfolio), []);
+test("the profile positions AmirHesam as product operations systems, not a language list", () => {
+  assert.match(readme, /Product, Projects, Operations, Data, Automation and Systems/i);
+  assert.doesNotMatch(readme, /wall of programming-language logos|top languages|streak/i);
 });
 
-test("featured repository identifiers are unique", () => {
-  assert.equal(featured.length, 6);
-  assert.equal(new Set(featured.map((project) => project.repository)).size, featured.length);
-});
-
-test("all maturity values belong to the governed enum", () => {
-  for (const project of portfolio.projects) assert.ok(MATURITY_VALUES.has(project.maturity));
-});
-
-test("every featured project has a native Markdown box", () => {
-  for (const project of featured) assert.ok(readme.includes(`| [${project.title}](https://github.com/${project.repository}) |`), project.repository);
-});
-
-test("every featured project has a live last-commit signal", () => {
-  for (const project of featured) assert.ok(readme.includes(`img.shields.io/github/last-commit/${project.repository}`), project.repository);
-});
-
-test("every featured project has a live primary-language signal", () => {
-  for (const project of featured) assert.ok(readme.includes(`img.shields.io/github/languages/top/${project.repository}`), project.repository);
-});
-
-test("released product lines have live release signals", () => {
-  for (const repository of ["he8um/oh-my-pm", "he8um/daryaft", "he8um/AirBridge", "he8um/branchdojo"]) {
-    assert.ok(readme.includes(`img.shields.io/github/v/release/${repository}`), repository);
+test("all visual surfaces are referenced from README", () => {
+  for (const asset of ["control-plane", "operations", "system-map", "telemetry"]) {
+    assert.match(readme, new RegExp(`\\.\\/assets\\/${asset}\\.svg`));
   }
 });
 
-test("every featured project has a live GitHub Actions signal", () => {
-  for (const project of featured) assert.match(readme, new RegExp(`https://github\\.com/${project.repository}/actions/workflows/[^)\"]+/badge\\.svg\\?branch=main`));
+test("operations are structured and use safe visibility for private work", () => {
+  assert.ok(operations.operations.length >= 4);
+  const privateOperations = operations.operations.filter((operation) => operation.url === null);
+  assert.ok(privateOperations.length >= 2);
+  for (const operation of privateOperations) {
+    assert.doesNotMatch(operation.description, /https:\/\/(?:airtable\.com|app\.clickup\.com)|\/workspace|secret|token/i);
+  }
 });
 
-test("all governed repositories remain discoverable", () => {
-  for (const project of portfolio.projects) assert.ok(readme.includes(`https://github.com/${project.repository}`), project.repository);
+test("capability matrix stays capability-oriented", () => {
+  assert.equal(profile.capabilityMatrix.length, 7);
+  const domains = profile.capabilityMatrix.map((item) => item.domain);
+  assert.deepEqual(domains, ["Product", "Project", "Operations", "Automation", "Data", "Architecture", "AI"]);
 });
 
-test("all remote image providers are explicitly approved", () => {
-  const images = remoteImageUrls(readme);
-  assert.ok(images.length >= 20);
-  for (const url of images) assert.equal(isAllowedLiveImage(url), true, url);
+test("telemetry summary uses first-party repository data", () => {
+  const summary = summarizeTelemetry(activity);
+  assert.ok(summary.repos.length >= 4);
+  assert.ok(summary.languages.length >= 2);
+  assert.equal(typeof summary.merged, "number");
 });
 
-test("committed static data visuals are no longer referenced", () => {
-  assert.doesNotMatch(readme, /assets\/generated\//);
-  assert.doesNotMatch(readme, /Portfolio Snapshot|Project Ecosystem Map|Release Timeline|Technology × Project Map/);
-});
-
-test("README contains no hard-coded release version", () => {
-  assert.doesNotMatch(readme, /\bv\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?\b/);
-});
-
-test("removed vanity elements do not return", () => {
-  assert.doesNotMatch(readme, /komarev|top-langs|streak-stats|readme-typing-svg|capsule-render|GitHub Developer Program/i);
-});
-
-test("README and source contain no unresolved placeholders", async () => {
-  const source = await readFile("portfolio/projects.json", "utf8");
-  assert.doesNotMatch(`${readme}\n${source}`, /\b(?:REPLACE_ME|REPLACE_WITH_[A-Z0-9_]+|TODO|TBD)\b/);
+test("README avoids generic profile tropes", () => {
+  assert.doesNotMatch(readme, /whoami|neofetch|TARGET ACQUIRED|ninja|guru|rockstar|10x/i);
+  assert.doesNotMatch(readme, /github-readme-stats|activity-graph|komarev|readme-typing-svg|capsule-render/i);
 });

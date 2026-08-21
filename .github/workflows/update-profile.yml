@@ -1,0 +1,57 @@
+name: Update profile telemetry
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/profile.json
+      - data/operations.json
+      - data/system-map.json
+      - scripts/generate-profile.mjs
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: "24"
+
+      - name: Refresh GitHub telemetry
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run generate -- --fetch
+
+      - name: Validate refreshed profile
+        run: npm run validate
+
+      - name: Run tests
+        run: npm test
+
+      - name: Commit changed telemetry
+        run: |
+          if git diff --quiet -- README.md assets data; then
+            echo "No profile telemetry changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- README.md assets data
+          git commit -m "chore(profile): refresh telemetry"
+          git push

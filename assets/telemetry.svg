@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 560">
+  <title id="title">GitHub telemetry</title>
+  <desc id="desc">First-party GitHub API telemetry for selected public repositories.</desc>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    text {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
+      fill: #E7E4DD;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+    .muted { fill: #9CA3AF; }
+    .dim { fill: #68717D; }
+    .red { fill: #E33B32; }
+    .cyan { fill: #7DD3D8; }
+    .panel { fill: #111419; stroke: #303741; }
+    .panel2 { fill: #171B22; stroke: #303741; }
+    .hair { stroke: #303741; stroke-width: 1; fill: none; }
+    .hair-soft { stroke: #222831; stroke-width: 1; fill: none; }
+    .signal { stroke: #E33B32; stroke-width: 2; fill: none; }
+    .cyan-line { stroke: #7DD3D8; stroke-width: 1.5; fill: none; }
+    .label { font-size: 13px; letter-spacing: 2px; font-weight: 700; }
+    .small { font-size: 14px; }
+    .micro { font-size: 11px; letter-spacing: 1.4px; }
+    .scan { animation: scan 7s ease-in-out infinite; }
+    .pulse { animation: pulse 4.5s ease-in-out infinite; transform-origin: center; }
+    .flow { stroke-dasharray: 4 10; animation: flow 8s linear infinite; }
+    @keyframes scan {
+      0%, 100% { transform: translateX(-80px); opacity: 0; }
+      15%, 75% { opacity: .28; }
+      50% { transform: translateX(1020px); opacity: .12; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: .45; }
+      50% { opacity: 1; }
+    }
+    @keyframes flow {
+      to { stroke-dashoffset: -120; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .scan, .pulse, .flow { animation: none; }
+    }
+  </style>
+  <rect width="1200" height="560" rx="0" fill="#090A0C"/>
+  <path d="M0 44H1200M0 516H1200" class="hair-soft"/>
+  <path d="M44 0V560M1156 0V560" class="hair-soft"/>
+  
+    
+    <text x="64" y="72" class="mono micro red">06 / TELEMETRY</text>
+    <path d="M64 86H284" class="signal"/>
+  
+    <text x="64" y="112" class="small muted">Generated from GitHub API for public repositories. No third-party stat widgets. No fabricated metrics.</text>
+    
+    <rect x="64" y="146" width="246" height="126" rx="14" class="panel"/>
+    <text x="88" y="184" class="mono micro muted">TRACKED REPOSITORIES</text>
+    <text x="88" y="230" font-size="42" font-weight="850">14</text>
+    <text x="88" y="254" class="mono micro dim">public sources</text>
+  
+    
+    <rect x="334" y="146" width="246" height="126" rx="14" class="panel"/>
+    <text x="358" y="184" class="mono micro muted">RECENTLY ACTIVE</text>
+    <text x="358" y="230" font-size="42" font-weight="850">14</text>
+    <text x="358" y="254" class="mono micro dim">pushed within 90d</text>
+  
+    
+    <rect x="604" y="146" width="246" height="126" rx="14" class="panel"/>
+    <text x="628" y="184" class="mono micro muted">LANGUAGE SIGNALS</text>
+    <text x="628" y="230" font-size="42" font-weight="850">4</text>
+    <text x="628" y="254" class="mono micro dim">TypeScript / Rust / Go / Python</text>
+  
+    
+    <rect x="874" y="146" width="246" height="126" rx="14" class="panel"/>
+    <text x="898" y="184" class="mono micro muted">MERGED PR SIGNALS</text>
+    <text x="898" y="230" font-size="42" font-weight="850">24</text>
+    <text x="898" y="254" class="mono micro dim">latest closed PR page</text>
+  
+    <text x="64" y="286" class="mono micro red">RECENT ACTIVITY TRACE</text>
+    
+      <text x="88" y="320" class="mono micro">he8um/oh-my-pm</text>
+      <text x="430" y="320" class="mono micro muted">TypeScript</text>
+      <text x="610" y="320" class="mono micro dim">2026-08-17</text>
+      <path d="M84 330H720" class="hair-soft"/>
+    
+      <text x="88" y="352" class="mono micro">he8um/api-design-skills</text>
+      <text x="430" y="352" class="mono micro muted">Python</text>
+      <text x="610" y="352" class="mono micro dim">2026-08-01</text>
+      <path d="M84 362H720" class="hair-soft"/>
+    
+      <text x="88" y="384" class="mono micro">he8um/marketing-maestro</text>
+      <text x="430" y="384" class="mono micro muted">Python</text>
+      <text x="610" y="384" class="mono micro dim">2026-08-01</text>
+      <path d="M84 394H720" class="hair-soft"/>
+    
+      <text x="88" y="416" class="mono micro">he8um/database-engineering-skills</text>
+      <text x="430" y="416" class="mono micro muted">Python</text>
+      <text x="610" y="416" class="mono micro dim">2026-08-01</text>
+      <path d="M84 426H720" class="hair-soft"/>
+    
+      <text x="88" y="448" class="mono micro">he8um/mcp-skills</text>
+      <text x="430" y="448" class="mono micro muted">Python</text>
+      <text x="610" y="448" class="mono micro dim">2026-08-01</text>
+      <path d="M84 458H720" class="hair-soft"/>
+    
+      <text x="88" y="480" class="mono micro">he8um/github-skills</text>
+      <text x="430" y="480" class="mono micro muted">Python</text>
+      <text x="610" y="480" class="mono micro dim">2026-08-01</text>
+      <path d="M84 490H720" class="hair-soft"/>
+    
+    <text x="826" y="320" class="mono micro muted">LAST REFRESH</text>
+    <text x="826" y="356" font-size="25" font-weight="800">2026-08-21</text>
+    <text x="826" y="392" class="small muted">Source: github-api</text>
+    <path d="M826 424H1094" class="signal"/>
+    <text x="826" y="462" class="mono micro dim">REFRESH CADENCE / DAILY + MANUAL</text>
+  
+</svg>

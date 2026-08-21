@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "domains": [
+    { "id": "product", "label": "Product", "x": 600, "y": 120 },
+    { "id": "operations", "label": "Operations", "x": 340, "y": 280 },
+    { "id": "automation", "label": "Automation", "x": 860, "y": 280 },
+    { "id": "data", "label": "Data", "x": 450, "y": 470 },
+    { "id": "ai", "label": "AI", "x": 750, "y": 470 },
+    { "id": "delivery", "label": "Delivery", "x": 600, "y": 620 }
+  ],
+  "links": [
+    ["product", "operations"],
+    ["product", "automation"],
+    ["operations", "data"],
+    ["automation", "data"],
+    ["automation", "ai"],
+    ["data", "delivery"],
+    ["ai", "delivery"],
+    ["operations", "delivery"]
+  ],
+  "projects": [
+    { "id": "BOXJA", "domain": "product", "secondary": "delivery" },
+    { "id": "DKM OPS", "domain": "operations", "secondary": "data" },
+    { "id": "AIRBRIDGE", "domain": "data", "secondary": "automation" },
+    { "id": "OH MY PM", "domain": "ai", "secondary": "delivery" },
+    { "id": "MAESTRO", "domain": "ai", "secondary": "product" }
+  ]
+}

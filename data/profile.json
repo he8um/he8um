@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "operator": {
+    "handle": "XHESAM",
+    "name": "AmirHesam Piri",
+    "title": "Product, Project and Marketing Operations",
+    "locationSignal": "Tehran-facing operations / global systems surface",
+    "mode": "Build / Operate / Scale",
+    "status": "Active",
+    "summary": "I design operating models and the technical systems behind them: how work enters, gets structured, gains ownership, moves through execution, becomes visible, and produces evidence for the next decision.",
+    "focus": [
+      "Product systems",
+      "Project governance",
+      "Marketing operations",
+      "Workflow automation",
+      "Operational data",
+      "AI-assisted delivery"
+    ]
+  },
+  "contacts": [
+    {
+      "label": "Website",
+      "url": "https://xhesam.com"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/he8um/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:info@xhesam.com"
+    }
+  ],
+  "telemetryRepositories": [
+    "he8um/oh-my-pm",
+    "he8um/AirBridge",
+    "he8um/daryaft",
+    "he8um/branchdojo",
+    "he8um/product-maestro",
+    "he8um/marketing-maestro",
+    "he8um/software-architecture-maestro",
+    "he8um/api-design-skills",
+    "he8um/database-engineering-skills",
+    "he8um/github-skills",
+    "he8um/mcp-skills",
+    "he8um/airtable-skills",
+    "he8um/clickup-skills",
+    "he8um/n8n-skills"
+  ],
+  "missionArchive": [
+    {
+      "id": "OP-014",
+      "name": "Boxja Platform",
+      "type": "Marketplace Infrastructure",
+      "objective": "Build a scalable booking platform for rentable creative spaces.",
+      "role": "Product / System Design / Delivery",
+      "state": "Active",
+      "url": null,
+      "visibility": "Private product work; public link intentionally omitted."
+    },
+    {
+      "id": "OP-009",
+      "name": "AirBridge",
+      "type": "Operational Data Safety",
+      "objective": "Create a local-first backup, inspection and restore-planning layer for Airtable bases.",
+      "role": "Product / Architecture / Implementation",
+      "state": "Public alpha",
+      "url": "https://github.com/he8um/AirBridge"
+    },
+    {
+      "id": "OP-007",
+      "name": "OH MY PM",
+      "type": "Project Intelligence System",
+      "objective": "Turn repository and delivery context into structured briefs, risks, plans and governed memory.",
+      "role": "Product / System Design / Engineering",
+      "state": "Active development",
+      "url": "https://github.com/he8um/oh-my-pm"
+    },
+    {
+      "id": "OP-006",
+      "name": "Maestro Skills",
+      "type": "AI Operations Doctrine",
+      "objective": "Package product, marketing, architecture and technical decision systems as reusable agent skills.",
+      "role": "Information Architecture / Governance / Validation",
+      "state": "Maintained",
+      "url": "https://github.com/he8um/product-maestro"
+    }
+  ],
+  "capabilityMatrix": [
+    {
+      "domain": "Product",
+      "scope": "Discovery to delivery",
+      "evidence": "Problem framing, roadmaps, release decisions, product documentation"
+    },
+    {
+      "domain": "Project",
+      "scope": "Planning, execution, governance",
+      "evidence": "Ownership models, operating cadence, delivery controls, status systems"
+    },
+    {
+      "domain": "Operations",
+      "scope": "Process to system",
+      "evidence": "Marketing operations, finance flows, vendor systems, repeatable workflows"
+    },
+    {
+      "domain": "Automation",
+      "scope": "APIs, workflows, agents",
+      "evidence": "n8n, Airtable, ClickUp, MCP, GitHub Actions, integration design"
+    },
+    {
+      "domain": "Data",
+      "scope": "Modeling and operational intelligence",
+      "evidence": "Schema design, status taxonomies, validation, BI-facing source structure"
+    },
+    {
+      "domain": "Architecture",
+      "scope": "System, API, database",
+      "evidence": "Technical specs, trade-off records, validation gates, implementation handoff"
+    },
+    {
+      "domain": "AI",
+      "scope": "Agentic workflows and AI-assisted delivery",
+      "evidence": "Reusable skills, governed prompts, quality gates, safety boundaries"
+    }
+  ],
+  "doctrine": [
+    "Evidence before assumptions.",
+    "Clear ownership before automation.",
+    "Data models before dashboards.",
+    "Documentation is part of the system.",
+    "Release discipline beats invisible progress."
+  ]
+}

@@ -1,12 +1,13 @@
 {
-  "name": "he8um-profile-dashboard",
-  "version": "1.0.0",
+  "name": "xh-control-plane-profile",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
+    "generate": "node scripts/generate-profile.mjs",
     "validate": "node scripts/validate-profile.mjs",
     "test": "node --test"
   }

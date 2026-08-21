@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 520">
+  <title id="title">XHESAM Operations Control Plane</title>
+  <desc id="desc">Mission-control style profile header for AmirHesam Piri, showing product, operations, data, automation and systems relationships.</desc>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    text {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
+      fill: #E7E4DD;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+    .muted { fill: #9CA3AF; }
+    .dim { fill: #68717D; }
+    .red { fill: #E33B32; }
+    .cyan { fill: #7DD3D8; }
+    .panel { fill: #111419; stroke: #303741; }
+    .panel2 { fill: #171B22; stroke: #303741; }
+    .hair { stroke: #303741; stroke-width: 1; fill: none; }
+    .hair-soft { stroke: #222831; stroke-width: 1; fill: none; }
+    .signal { stroke: #E33B32; stroke-width: 2; fill: none; }
+    .cyan-line { stroke: #7DD3D8; stroke-width: 1.5; fill: none; }
+    .label { font-size: 13px; letter-spacing: 2px; font-weight: 700; }
+    .small { font-size: 14px; }
+    .micro { font-size: 11px; letter-spacing: 1.4px; }
+    .scan { animation: scan 7s ease-in-out infinite; }
+    .pulse { animation: pulse 4.5s ease-in-out infinite; transform-origin: center; }
+    .flow { stroke-dasharray: 4 10; animation: flow 8s linear infinite; }
+    @keyframes scan {
+      0%, 100% { transform: translateX(-80px); opacity: 0; }
+      15%, 75% { opacity: .28; }
+      50% { transform: translateX(1020px); opacity: .12; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: .45; }
+      50% { opacity: 1; }
+    }
+    @keyframes flow {
+      to { stroke-dashoffset: -120; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .scan, .pulse, .flow { animation: none; }
+    }
+  </style>
+  <rect width="1200" height="520" rx="0" fill="#090A0C"/>
+  <path d="M0 44H1200M0 476H1200" class="hair-soft"/>
+  <path d="M44 0V520M1156 0V520" class="hair-soft"/>
+  
+    <rect x="28" y="28" width="1144" height="464" rx="18" fill="none" stroke="#303741"/>
+    <rect x="54" y="54" width="398" height="38" rx="19" fill="#111419" stroke="#303741"/>
+    <text x="78" y="79" class="mono micro muted">SYS-ID / XHESAM-OCP</text>
+    <text x="300" y="79" class="mono micro red">STATUS / ACTIVE</text>
+    <text x="64" y="157" font-size="76" font-weight="800" letter-spacing="6">XHESAM</text>
+    <text x="68" y="205" font-size="24" font-weight="700" letter-spacing="3" class="muted">OPERATIONS CONTROL PLANE</text>
+    <path d="M70 236H486" class="signal"/>
+    <text x="70" y="282" font-size="20" font-weight="700">AMIRHESAM PIRI</text>
+    <text x="70" y="315" class="small muted">Product, Project and Marketing Operations</text>
+    <g transform="translate(70 350)">
+      <rect width="142" height="34" rx="17" fill="#E33B32"/>
+      <text x="71" y="22" text-anchor="middle" class="mono micro" fill="#fff">PRODUCT</text>
+      <rect x="154" width="134" height="34" rx="17" fill="#171B22" stroke="#303741"/>
+      <text x="221" y="22" text-anchor="middle" class="mono micro">PROJECT</text>
+      <rect x="300" width="154" height="34" rx="17" fill="#171B22" stroke="#303741"/>
+      <text x="377" y="22" text-anchor="middle" class="mono micro">OPERATIONS</text>
+      <rect y="48" width="232" height="34" rx="17" fill="#171B22" stroke="#303741"/>
+      <text x="116" y="70" text-anchor="middle" class="mono micro">MODE / BUILD / OPERATE / SCALE</text>
+    </g>
+    <rect x="575" y="76" width="548" height="386" rx="16" fill="#111419" stroke="#303741"/>
+    <text x="610" y="108" class="mono micro muted">TOPOLOGY / PRODUCT-OPERATIONS-SYSTEMS</text>
+    
+    <g aria-hidden="true">
+      <path d="M675 255H762.5V125H850" class="hair flow"/><path d="M675 255H842.5V190H1010" class="hair flow"/><path d="M675 255H762.5V255H850" class="hair flow"/><path d="M675 255H842.5V320H1010" class="hair flow"/><path d="M675 255H762.5V385H850" class="hair flow"/>
+      
+        <g>
+          <circle cx="850" cy="125" r="32" fill="#111419" stroke="#303741"/>
+          <circle cx="850" cy="125" r="5" fill="#E33B32" class="pulse"/>
+          <text x="850" y="181" text-anchor="middle" class="mono micro muted">PRODUCT</text>
+        </g>
+      
+        <g>
+          <circle cx="1010" cy="190" r="32" fill="#111419" stroke="#303741"/>
+          <circle cx="1010" cy="190" r="5" fill="#7DD3D8" class="pulse"/>
+          <text x="1010" y="246" text-anchor="middle" class="mono micro muted">DATA</text>
+        </g>
+      
+        <g>
+          <circle cx="850" cy="255" r="32" fill="#111419" stroke="#303741"/>
+          <circle cx="850" cy="255" r="5" fill="#E33B32" class="pulse"/>
+          <text x="850" y="311" text-anchor="middle" class="mono micro muted">AUTOMATION</text>
+        </g>
+      
+        <g>
+          <circle cx="1010" cy="320" r="32" fill="#111419" stroke="#303741"/>
+          <circle cx="1010" cy="320" r="5" fill="#7DD3D8" class="pulse"/>
+          <text x="1010" y="376" text-anchor="middle" class="mono micro muted">OPERATIONS</text>
+        </g>
+      
+        <g>
+          <circle cx="850" cy="385" r="32" fill="#111419" stroke="#303741"/>
+          <circle cx="850" cy="385" r="5" fill="#E33B32" class="pulse"/>
+          <text x="850" y="441" text-anchor="middle" class="mono micro muted">PROJECTS</text>
+        </g>
+      
+        <g>
+          <circle cx="675" cy="255" r="42" fill="#171B22" stroke="#E33B32"/>
+          <circle cx="675" cy="255" r="7" fill="#7DD3D8" class="pulse"/>
+          <text x="675" y="311" text-anchor="middle" class="mono micro red">SYSTEMS</text>
+        </g>
+      
+    </g>
+  
+    <rect x="590" y="80" width="34" height="360" fill="#E33B32" opacity=".16" class="scan"/>
+  
+</svg>

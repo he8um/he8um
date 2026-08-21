@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "operations": [
+    {
+      "id": "OP-014",
+      "name": "BOXJA PLATFORM",
+      "type": "Marketplace / Product / Architecture",
+      "status": "ACTIVE",
+      "description": "Booking platform architecture for rentable creative spaces. Public implementation details are intentionally withheld.",
+      "url": null,
+      "domains": ["Product", "System Design", "Delivery", "Operations"]
+    },
+    {
+      "id": "OP-011",
+      "name": "DKM OPS",
+      "type": "Marketing Operations Infrastructure",
+      "status": "OPERATIONAL",
+      "description": "Internal operating layer for finance, vendors, automations, task flows and structured execution.",
+      "url": null,
+      "domains": ["Operations", "Automation", "Data", "Governance"]
+    },
+    {
+      "id": "OP-009",
+      "name": "AIRBRIDGE",
+      "type": "Operational Data Safety",
+      "status": "PUBLIC ALPHA",
+      "description": "Local-first Airtable backup, inspection, validation and restore-planning system.",
+      "url": "https://github.com/he8um/AirBridge",
+      "domains": ["Data", "Automation", "System Design"]
+    },
+    {
+      "id": "OP-007",
+      "name": "OH MY PM",
+      "type": "Project Intelligence System",
+      "status": "ACTIVE",
+      "description": "Repository-aware project intelligence, governed memory and delivery context tooling.",
+      "url": "https://github.com/he8um/oh-my-pm",
+      "domains": ["Product", "Project", "AI", "Automation"]
+    },
+    {
+      "id": "OP-004",
+      "name": "XHESAM",
+      "type": "Personal Product and Systems Portfolio",
+      "status": "ITERATING",
+      "description": "Public surface for product, operations, automation and system architecture work.",
+      "url": "https://xhesam.com",
+      "domains": ["Product", "Systems", "Communication"]
+    }
+  ]
+}

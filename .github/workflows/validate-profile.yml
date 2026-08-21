@@ -4,22 +4,22 @@ on:
   pull_request:
     paths:
       - README.md
-      - portfolio/**
+      - data/**
       - assets/**
       - scripts/**
       - tests/**
       - package.json
-      - .github/workflows/validate-profile.yml
+      - .github/workflows/**
   push:
     branches: [main]
     paths:
       - README.md
-      - portfolio/**
+      - data/**
       - assets/**
       - scripts/**
       - tests/**
       - package.json
-      - .github/workflows/validate-profile.yml
+      - .github/workflows/**
   workflow_dispatch:
 
 permissions:
@@ -41,6 +41,9 @@ jobs:
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
         with:
           node-version: "24"
+
+      - name: Generate profile assets from committed data
+        run: npm run generate
 
       - name: Validate profile
         run: npm run validate
